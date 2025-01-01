@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+	  "module": "CommonJS",
+"target": "ESNext",
+  // Output as ES modules
+	  "moduleResolution": "node",  // Use Node.js module resolution
+	  "esModuleInterop": true,  // Allow default imports from modules with no default export
+	  "outDir": "./out",  // Output folder
+	  "allowJs": true,  // Allow JavaScript files
+	  "resolveJsonModule": true,  // Allow importing JSON files
+	  "skipLibCheck": true,  // Skip library checks for faster compilation
+	  "strict": true  // Enable strict type-checking options
+	},
+	"include": [
+	  "src/**/*.ts"  // Include all TypeScript files in the src folder
+	],
+	"exclude": [
+	  "node_modules"  // Exclude node_modules
+	]
+  }
+  
